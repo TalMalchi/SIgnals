@@ -3,7 +3,7 @@
 * Written by Guy Azoulay - 207709734 
              Tal Malchi -  208278556
 
-In this assigment we asked to built a program which will create several several signals
+In this assigment we asked to built a program which will create several signals
 which lead to other signals and so on,we chose to implement this assigment in CPP languge.
 
 ## Main Goal Of The Project
