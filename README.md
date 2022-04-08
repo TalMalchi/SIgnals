@@ -15,12 +15,13 @@ most of the time they are appearing in different ways which maybe seems
 like a program was shut down or somthing else, but it turns out that this is
 the computer's way to tell us that there is somthing wrong with our program.
 
-In this program we generated 5 different signals:
+In this program we generated 6 different signals:
 * SIGCHLD - Child stopped or terminated
 * SIGFPE - Floating-point exception happaning in the computer's core
 * SIGABRT - abort - cause abnormal process termination
 * SIGALRM - Timer signal from: set an alarm clock for delivery of a signal
 * SIGUSR1 - User-defined signal 1
+* SIGSEGV - sent to a process when it makes an invalid virtual memory reference, or segmentation fault.
  
  All of the program start when SICHLD starts the process, inside the SIGCHLD
  we try to divide by zero and in that way we create more and more differnet signals.
